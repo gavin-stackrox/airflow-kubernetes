@@ -54,7 +54,7 @@ class AbstractOpenshiftNightlyDAG(ABC):
         tags.append(self.version_alias)
 
         if schedule_interval is None:
-            schedule_interval='0 12 * * 1,3,5'
+            schedule_interval=''
 
         self.dag = DAG(
             self.release,
