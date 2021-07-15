@@ -16,7 +16,7 @@ done
 setup(){
     mkdir /home/airflow/workspace
     cd /home/airflow/workspace
-    git clone https://github.com/cloud-bulldozer/scale-ci-deploy
+    git clone https://github.com/gavin-stackrox/scale-ci-deploy.git
     git clone https://${SSHKEY_TOKEN}@github.com/redhat-performance/perf-dept.git
     export PUBLIC_KEY=/home/airflow/workspace/perf-dept/ssh_keys/id_rsa_pbench_ec2.pub
     export PRIVATE_KEY=/home/airflow/workspace/perf-dept/ssh_keys/id_rsa_pbench_ec2 
@@ -25,6 +25,7 @@ setup(){
 
 
     cd scale-ci-deploy
+    git checkout 2e964eca95e9ff9122b686d28c0c444df3285f8e
     # Create inventory File:
     echo "[orchestration]" > inventory
     echo "${ORCHESTRATION_HOST}" >> inventory
