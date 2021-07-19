@@ -68,7 +68,9 @@
                 "LOG_LEVEL": "info",
                 "LOG_STREAMING": "true",
                 "CLEANUP_WHEN_FINISH": "true",
-                "CLEANUP": "true"
+                "CLEANUP": "true",
+                "OPERATOR_REPO": "https://github.com/gavin-stackrox/benchmark-operator.git",
+                "OPERATOR_BRANCH": "backpack-rw-root"
             }
         },
         {
@@ -113,7 +115,10 @@
                 "LOG_LEVEL": "info",
                 "LOG_STREAMING": "true",
                 "CLEANUP_WHEN_FINISH": "false",
-                "CLEANUP": "true"
+                "CLEANUP": "true",
+                "OPERATOR_REPO": "https://github.com/gavin-stackrox/benchmark-operator.git",
+                "OPERATOR_BRANCH": "backpack-rw-root"
+
             }
         },
         {
