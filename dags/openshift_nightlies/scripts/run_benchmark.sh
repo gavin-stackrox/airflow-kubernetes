@@ -14,7 +14,7 @@ done
 setup(){
     mkdir /home/airflow/workspace
     cd /home/airflow/workspace
-    git clone https://github.com/cloud-bulldozer/e2e-benchmarking
+    git clone --branch rhacs-fixes https://github.com/gavin-stackrox/e2e-benchmarking
 
     cp /home/airflow/.kube/config /home/airflow/workspace/kubeconfig
     export KUBECONFIG=/home/airflow/workspace/kubeconfig
