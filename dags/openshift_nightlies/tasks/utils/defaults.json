@@ -8,7 +8,9 @@
                 "PROMETHEUS_CAPTURE": "false",                  
                 "PROMETHEUS_CAPTURE_TYPE": "full",             
                 "OPENSHIFT_MUST_GATHER": "true",               
-                "STORAGE_MODE": "snappy"
+                "STORAGE_MODE": "snappy",
+                "OPERATOR_REPO": "https://github.com/gavin-stackrox/benchmark-operator.git",
+                "OPERATOR_BRANCH": "backpack-rw-root-v0-1"
             }
         }
     ]

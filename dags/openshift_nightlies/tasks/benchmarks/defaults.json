@@ -15,7 +15,9 @@
                 "GOLD_SDN": "openshiftsdn",
                 "COMPARE_WITH_GOLD": "true",
                 "EMAIL_ID_FOR_RESULTS_SHEET": "msheth@redhat.com",
-                "GSHEET_KEY_LOCATION": "/tmp/key.json"
+                "GSHEET_KEY_LOCATION": "/tmp/key.json",
+                "OPERATOR_REPO": "https://github.com/gavin-stackrox/benchmark-operator.git",
+                "OPERATOR_BRANCH": "backpack-rw-root-v0-1"
             }
         },
         {
@@ -28,7 +30,9 @@
                 "GOLD_SDN": "openshiftsdn",
                 "COMPARE_WITH_GOLD": "true",
                 "EMAIL_ID_FOR_RESULTS_SHEET": "msheth@redhat.com",
-                "GSHEET_KEY_LOCATION": "/tmp/key.json"
+                "GSHEET_KEY_LOCATION": "/tmp/key.json",
+                "OPERATOR_REPO": "https://github.com/gavin-stackrox/benchmark-operator.git",
+                "OPERATOR_BRANCH": "backpack-rw-root-v0-1"
             }
         },
         {
@@ -41,7 +45,9 @@
                 "GOLD_SDN": "openshiftsdn",
                 "COMPARE_WITH_GOLD": "true",
                 "EMAIL_ID_FOR_RESULTS_SHEET": "msheth@redhat.com",
-                "GSHEET_KEY_LOCATION": "/tmp/key.json"
+                "GSHEET_KEY_LOCATION": "/tmp/key.json",
+                "OPERATOR_REPO": "https://github.com/gavin-stackrox/benchmark-operator.git",
+                "OPERATOR_BRANCH": "backpack-rw-root-v0-1"
             }
         },        
         {
@@ -51,7 +57,9 @@
             "env": {
                 "SCALE": "25",
                 "METADATA_COLLECTION": "true",
-                "WORKLOAD_NODE_ROLE": "workload"
+                "WORKLOAD_NODE_ROLE": "workload",
+                "OPERATOR_REPO": "https://github.com/gavin-stackrox/benchmark-operator.git",
+                "OPERATOR_BRANCH": "backpack-rw-root-v0-1"
             }
         },
         {
@@ -88,7 +96,9 @@
                 "LOG_LEVEL": "info",
                 "LOG_STREAMING": "true",
                 "CLEANUP_WHEN_FINISH": "true",
-                "CLEANUP": "true"
+                "CLEANUP": "true",
+                "OPERATOR_REPO": "https://github.com/gavin-stackrox/benchmark-operator.git",
+                "OPERATOR_BRANCH": "backpack-rw-root-v0-1"
             }
         },
         {
@@ -98,7 +108,9 @@
             "env": {
                 "SCALE": "50",
                 "METADATA_COLLECTION": "true",
-                "WORKLOAD_NODE_ROLE": "workload"
+                "WORKLOAD_NODE_ROLE": "workload",
+                "OPERATOR_REPO": "https://github.com/gavin-stackrox/benchmark-operator.git",
+                "OPERATOR_BRANCH": "backpack-rw-root-v0-1"
             }
         },
         {
@@ -118,7 +130,6 @@
                 "CLEANUP": "true",
                 "OPERATOR_REPO": "https://github.com/gavin-stackrox/benchmark-operator.git",
                 "OPERATOR_BRANCH": "backpack-rw-root-v0-1"
-
             }
         },
         {
@@ -129,7 +140,9 @@
                 "LATEST": "true",
                 "CHANNEL": "nightlies",
                 "TIMEOUT": "400",
-                "POLL_INTERVAL": "10"
+                "POLL_INTERVAL": "10",
+                "OPERATOR_REPO": "https://github.com/gavin-stackrox/benchmark-operator.git",
+                "OPERATOR_BRANCH": "backpack-rw-root-v0-1"
             }
         }
     ]
