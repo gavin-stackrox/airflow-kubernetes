@@ -16,7 +16,7 @@ dagConfig:
 platforms:
   cloud:
     - version: 4.7
-      releaseStream: 4.7.0-0.nightly
+      releaseStream: 4-stable
       providers:
       - name: aws
         profiles:
